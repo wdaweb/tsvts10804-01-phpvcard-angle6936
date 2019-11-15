@@ -1,0 +1,81 @@
+#main {
+  margin: 10% auto;
+  width: 800px;
+  background-image: url("20.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 6px 18px 0px #333;
+  font-family: "標楷體";
+  padding: 1%;
+  overflow: hidden;
+  border: solid rgba(210, 180, 140, 0.2) 5px;
+  border-radius: 1.5rem;
+}
+
+#photos {
+  width: 150px;
+  float: left;
+}
+
+#content {
+  margin: 2px 0;
+  width: 550px;
+  float: right;
+}
+
+#title {
+  color: #3b5998;
+  padding: 3px;
+  background-color: rgba(135, 206, 235, 0.4);
+  font-family: "Impact";
+  letter-spacing: 7px;
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+p {
+  text-align: left;
+  padding: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  overflow: auto;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 2rem;
+  margin-top: 20px;
+  border: 6px solid #eee;
+}
+
+.clr {
+  color: black;
+}
+
+.box {
+  border-radius: 5px;
+  letter-spacing: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.7rem;
+  margin: 0 auto;
+  display: block;
+  font-size: 17px;
+  color: #3b5998;
+  font-family: "標楷體";
+}
+
+.btn:hover {
+  display: block;
+  background-color: #3b5998;
+  font-family: "標楷體";
+  color: white;
+  font-size: 20px;
+}
